@@ -5,7 +5,7 @@ public class Data {
     public static final int TYPE_ITEM = 0;
     public static final int TYPE_HEADER = 1;
 
-    public int type;
+    public int type = TYPE_ITEM;
     public String title;
     public String description;
     public int number;
